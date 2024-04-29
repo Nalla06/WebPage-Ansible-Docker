@@ -1,0 +1,5 @@
+- name: Docker install and configuration
+  hosts: _ansible_control 
+  become: true
+  roles: 
+    - geerlingguy.docker
